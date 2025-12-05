@@ -1,0 +1,24 @@
+{
+  "vendors": [
+    {
+      "name": "TechWorld Inc",
+      "email": "sales@techworld.com",
+      "contactPerson": "Alice Smith"
+    },
+    {
+      "name": "ComputePro",
+      "email": "contact@computepro.com",
+      "contactPerson": "Bob Jones"
+    }
+  ],
+  "sample_rfp_prompt": "I need 50 Dell XPS 15 laptops with 32GB RAM and 1TB SSD. Budget is $100,000. Delivery required by end of next month.",
+  "sample_vendor_email": "Hi Team,\n\nHere is our quote for the Dell laptops.\n\nPrice: $1,800 per unit.\nTotal: $90,000.\nDelivery: 3 weeks.\nWarranty: 3 years onsite.\n\nThanks,\nAlice",
+  "comparison_output_example": {
+    "recommendation": "TechWorld Inc",
+    "justification": "TechWorld offers a better warranty (3 years vs 1 year) and is under budget.",
+    "matrix": [
+      { "vendor": "TechWorld Inc", "score": 92 },
+      { "vendor": "ComputePro", "score": 85 }
+    ]
+  }
+}
